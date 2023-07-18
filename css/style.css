@@ -1,11 +1,60 @@
-.nav-container{
-    border: 1px solid red;
-    min-height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
 }
-.logo-container{
-    border: 1px solid blue;
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.main-nav{
+    background-color: #9376e0; 
+}
+.nav-container{
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
 
 }
+.logo-container{
+   
+    display: flex;
+    width: 50%;
+
+}
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 30px;
+}
+.hive{
+    color: #e893cf ;
+}
 .nav-items-container{
-    border: 1px solid green;
+   
+    width: 50%;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+}
+.nav-items-container .login-btn{
+    background-color: #e893cf ;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    
 }
